@@ -23,7 +23,7 @@ import { books } from "./books";
 import Book from "./Book";
 import { greeting } from "./testing/testing";
 
-// {} means you are looking for a specific name while without curly braces {} means that you are export default component so you can change the name of the component without affecting the application.
+// {} means you are looking for a specific name while without curly braces {} means that you are using export default component so you can change the name of the component without affecting the application.
 
 function Booklist() {
   console.log(greeting);
